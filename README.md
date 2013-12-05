@@ -3,6 +3,8 @@ enlarge-image
 
 Simple script displays larger version of an image when a thumbnail clicked
 
+Demo: http://nelsonic.s3.amazonaws.com/enlarge-image/index.html
+
 ## Background
 
 Today I was handed a requirement to **dispaly** an **enlarged** an **image**
@@ -30,7 +32,6 @@ My JS+CSS code is under 600kb!
 It works in **all browsers** and scales perfectly from 
 **Mobile Phone** to **Retina Display**.
 
-Try it: http://nelsonic.s3.amazonaws.com/enlarge-image/index.html
 
 ## Assumptions Made:
 
