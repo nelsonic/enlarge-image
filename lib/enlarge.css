@@ -1,4 +1,4 @@
-.lightBox {
+#enlargeImageContainer {
     width: 100%;
     height: 100%;
     background-color: #4d4d4d;
@@ -6,21 +6,19 @@
     top: 0px; 
     left: 0px;
     display: none;
-    z-index: 99;
+    z-index: 100;
 }
-#ei_ {
+#enlargeImage {
     width: 96%;
     max-height: 96%;
     margin-top: 20px;
     margin-left: 2%;
     border-radius: 10px;
     border: 3px solid white;
-    z-index: 100;
 }
-#eiclose {
+#enlargeImageClose {
     width: 40px;
     position: fixed;
     top: 10px; 
     right: 1%;
-    z-index: 100;
 }

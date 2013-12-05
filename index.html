@@ -1,21 +1,19 @@
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Enlarge Image</title>
-    <!-- http://translate.google.com/#la/en/valens -->
-    <link href="enlarge.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<img src="img/thumb_quay-wallpaper-1920x1200.jpg" alt="paradise" />
-<img src="img/thumb_overwater_bungalows-wallpaper-1920x1080.jpg" alt="paradise" />
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Enlarge Image</title>
+        <link href="lib/enlarge.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <img src="img/samples/thumb_quay-wallpaper-1920x1200.jpg" alt="Paradise" />
+        <img src="img/samples/thumb_overwater_bungalows-wallpaper-1920x1080.jpg" alt="Paradise" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="enlarge.min.js"> </script>
+        <div id="enlargeImageContainer">
+            <img src="img/close.png" alt="Close Enlarged Image" id="enlargeImageClose"/>
+            <img id="enlargeImage" alt="Caption Here" />
+        </div>
 
-<div id="eic_" class="max lightBox">
-    <img src="img/close.png" alt="Close Enlarged Image" id="eiclose"/>
-    <img id="ei_" alt="Caption Here" />
-</div>
-
-</body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="lib/enlarge.min.js"> </script>
+    </body>
 </html>
