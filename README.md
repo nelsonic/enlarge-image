@@ -26,11 +26,11 @@ And while it ended up taking me a bit longer than I predicted,
 I feel I've build something ***far easier*** 
 to ***understand*** *and* ***maintain***.
 
-My **CSS** is *only* **24 lines** and **JS** is **9 lines**.
-It works in all browsers and scales perfectly from 
+My JS+CSS code is under 600kb!
+It works in **all browsers** and scales perfectly from 
 **Mobile Phone** to **Retina Display**.
 
-Try it for yourself: http://nelsonic.s3.amazonaws.com/enlarge-image/index.html
+Try it: http://nelsonic.s3.amazonaws.com/enlarge-image/index.html
 
 ## Assumptions Made:
 
@@ -40,4 +40,4 @@ the enlarge.js file to suit your needs.
 
 Other than that it should be pretty easy/quick to use this script/css anywhere.
 
-Let me know your thoughts! :-)
+Let me know your thoughts/ideas! :-)
